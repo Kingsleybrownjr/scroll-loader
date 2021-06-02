@@ -1,4 +1,4 @@
-const renderPage = () => {
+export default () => {
 	const rootDiv = document.querySelector('#root');
 
 	rootDiv.innerHTML = `
@@ -25,5 +25,3 @@ const renderPage = () => {
 
 	return rootDiv;
 };
-
-export { renderPage };
