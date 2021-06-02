@@ -90,6 +90,9 @@ body {
 	position: fixed;
 	bottom: 50px;
 	transition: opacity 0.3s ease-in;
+	width: 50vw;
+	justify-content: center;
+	align-items: center;
 
 	&.show {
 		opacity: 1;
